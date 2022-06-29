@@ -6,3 +6,7 @@ Running the bot:
 ```
 node index.js
 ```
+Add a .env file with
+```
+TOKEN="putTokenHere"
+```
