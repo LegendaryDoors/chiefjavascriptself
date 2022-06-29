@@ -3,7 +3,7 @@ const voiceDiscord = require('@discordjs/voice')
 
 module.exports = {
   name: "svr",
-  catagory: "owner",
+  catagory: "music",
   permissions: [],
   devOnly: false,
   run: async ({ client, message, args }) => {
