@@ -2,8 +2,7 @@ const Discord = require("discord.js");
 require("dotenv").config();
 
 const { Client } = require('discord.js-selfbot-v13');
-//const client = new Client();
-const client = new Client({ ws: { properties: { $browser: "Discord iOS" }} });
+const client = new Client();
 
 let bot = {
   client,
