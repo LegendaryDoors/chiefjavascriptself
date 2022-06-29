@@ -22,13 +22,4 @@ client.loadCommands(bot, false);
 
 module.exports = bot;
 
-// Send welcome message to user on join
-client.on("guildMemberAdd", async (member) => {
-  const channelId = "935998668002185260";
-  const welcomeMessage = `Brotha <@${member.id}> welcome`;
-  member.guild.channels.fetch(channelId).then((channel) => {
-    channel.send(welcomeMessage);
-  });
-});
-
 client.login(process.env.TOKEN);

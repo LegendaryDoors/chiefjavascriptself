@@ -4,6 +4,6 @@ module.exports = {
   permissions: [],
   devOnly: true,
   run: async ({ client, message, args }) => {
-    message.reply("My commands:\n!svr !ping !help");
+    message.reply("My commands:\n!svr !chief !ping !help");
   },
 };
